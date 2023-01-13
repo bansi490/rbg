@@ -1,0 +1,7 @@
+name: Royal Borough of Greenwich
+description: This is custom module for greenwich apps.
+package: Custom
+type: module
+core_version_requirement: ^8.9 || ^9
+dependencies:
+  - 'webform:webform'
