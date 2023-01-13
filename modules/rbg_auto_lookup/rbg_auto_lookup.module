@@ -1,0 +1,14 @@
+<?php
+/**
+*   implementing hook_theme()
+*/
+function rbg_auto_lookup_theme($existing, $type, $theme, $path) {
+    return [
+        'auto_lookup' => [
+            'variables' => [
+                'items' => [],
+                'title' => ''
+            ]
+        ]
+    ];
+}
