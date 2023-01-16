@@ -1,0 +1,7 @@
+name: Street space
+description: A module containing a custom webform handler which returning remote IP address
+package: Custom
+type: module
+core_version_requirement: ^8.9 || ^9
+dependencies:
+  - 'webform:webform'

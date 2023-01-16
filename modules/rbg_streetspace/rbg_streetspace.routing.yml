@@ -1,0 +1,7 @@
+rbg_streetspace.streetspace_Form:
+  path: 'streetspace_Form'
+  defaults:
+    _form: '\Drupal\rbg_streetspace\Form\rbgstreetspaceForm'
+    _title: 'streetspace'
+  requirements:
+    _permission: 'Access Content'

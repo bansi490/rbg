@@ -1,0 +1,8 @@
+name: School admission year check
+description: School admission year lookup based on the date of birth.
+package: Custom
+type: module
+core_version_requirement: ^8.9 || ^9
+dependencies:
+  - 'webform:webform'
+  - 'drupal:block'

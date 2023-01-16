@@ -1,0 +1,5 @@
+name: Auto Lookup
+description: This is very simple module for auto lookup.
+package: Custom
+type: module
+core_version_requirement: ^8.9 || ^9
