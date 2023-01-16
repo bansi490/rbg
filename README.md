@@ -2,9 +2,7 @@
 
 
 
-## Localgov Drupal
-
-This is Localgov Drupal distribustion module customised by Royal Borough of Greenwich.
+This is Drupal module customised by Royal Borough of Greenwich.
 
 ## install
 

@@ -8,10 +8,12 @@
         "localgovdrupal/localgov_forms": "1.x-dev"
     },
     "license": "GPL-3.0-or-later",
+    "homepage": "https://gitlab.com/rbgreenwich/drupal",
     "authors": [
         {
             "name": "Bansi Joshi",
-            "email": "Bansi.Joshi@royalgreenwich.gov.uk"
+            "email": "Bansi.Joshi@royalgreenwich.gov.uk",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev"
