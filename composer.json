@@ -3,9 +3,8 @@
     "description": "Custom feature based on the Royal Borough of Greenwich.",
     "type": "project",
     "require": {
-        "php": "8.1",
-        "drupal/core": "9.4",
-        "localgovdrupal/localgov_forms": "1.x-dev"
+        "php": "^8.1",
+        "drupal/core": "^9.4"
     },
     "license": "GPL-3.0-or-later",
     "authors": [
