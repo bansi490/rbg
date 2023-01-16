@@ -1,5 +1,5 @@
 {
-    "name": "lgd/rbg",
+    "name": "rbg/drupalmodule",
     "description": "Custom feature based on the Royal Borough of Greenwich.",
     "type": "project",
     "require": {
