@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Implements hook_webform_options_WEBFORM_OPTIONS_ID_alter().
+ */
+function rbg_webform_options_external_api_alter(array &$options, array &$element) {
+  // Load cached options.
+  if ($cache = \Drupal::cache()->get('external_api')) {
+    $options = $cache->data;
+    return;
+  }
+
+  // Get data as associative array from the external webservice.
+  //$external_api_url = 'https://gist.githubusercontent.com/mshafrir/2646763/raw/8b0dbb93521f5d6889502305335104218454c2bf/states_hash.json';
+  $external_api_url = 'https://dev.royalgreenwich.gov.uk/api/channels/jackherrington';
+  $options = json_decode(file_get_contents($external_api_url), TRUE);
+
+  // Cache options so that we don't have to make continual requests
+  // to the external webservice.
+  \Drupal::cache()->set('external_api', $options);
+}
